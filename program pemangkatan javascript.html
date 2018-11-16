@@ -1,0 +1,87 @@
+<html>
+	<head> 
+	<link rel="stylesheet" type="text/css" href="cici.css" media="screen"/>
+	</head>
+		<script language="JavaScript">
+		
+		function alert1 () {
+		
+		alert("Hallo! Selamat datang di pemrograman pangkat JavaScript :D ");
+		}
+		
+		function test () {
+		var bil1=document.kirim.T1.value
+		var bil2=document.kirim.T2.value
+		var hasil=1;
+		var pangkat;
+		var hasil1=1;
+		
+		
+		if(bil2<0)
+		{
+		bil2=bil2*-1;
+		
+		for (pangkat=0; pangkat<bil2; pangkat++)
+		{
+		hasil1= hasil1*bil1;
+		}
+		 hasil= hasil/hasil1;
+		}
+		
+		else
+		for (pangkat=0; pangkat<bil2; pangkat++)
+		{
+		hasil= hasil*bil1;
+		}
+		
+		document.kirim.T3.value=hasil;
+		
+		
+		}
+		
+		
+		function reset() 
+		{
+            document.kirim.reset.value="Reset";
+        }
+		
+		
+		
+		</script>
+		
+		<body background="6.jpg" onload=alert1()> 
+		
+		<font face="comic sans ms">
+		<div class="top">
+			<div class="main">
+		<h2> <center><marquee>PROGRAM PEMANGKATAN BERBASIS WEB </marquee></center> </h2>
+		<br>
+		<br>
+		<div class="content">
+		<form method="POST" name="kirim">
+			<center>
+			<table border=3 cellpadding=10>
+			<br><br>
+				<tr><td>Masukkan bilangan pokok </td>
+				<td><input type="text" name="T1" size="20"></td>
+				<td><input type="button" value="Proses" name="B1" style="width:80px" onclick=test()></tr>
+				<tr><td>Masukkan nilai pangkat </td>
+				<td><input type="text" name="T2" size="20"></td>
+				<td><input type="button" value="Reset" name="B1" style="width:80px" onclick=reset()></tr>
+			</table>
+			<br><br>
+			<table border=3 cellpadding=10>
+				<tr><td> Hasil  </td>
+				<td><input type="text" name="T3" size="20"></td></tr>
+			</table>
+			</center>
+		</form>
+		<br><BR>
+		<div class="footer"> rahmaasdarina@gmail.com &copy; 2015
+		</div>
+		</div>
+		</div>
+		</div>
+		</font>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+.top {
+
+	padding: 50px 10px 0;
+
+}
+
+
+
+/* title */
+
+.main {
+
+	font-size: 1.2em;
+
+	height: 500px;
+
+	margin: 0 auto;
+
+	padding: 15px 15px 50px;
+
+	width: 780px;
+	
+	background-color: #FFEA8C;
+	
+	border: 4px solid;
+}
+
+.content{
+
+	height:300px;
+	
+	background: url(6.jpg);
+	
+	border: 7px solid;
+	
+	padding: 10px 10px 5px;}
+
+.footer 
+{
+
+	color: #FF1000;
+
+
+	text-align: center;
+	
+	float: center;
+
+}	
+
+td
+{background-color :#FFEA8C ;
+text-align: center;}
